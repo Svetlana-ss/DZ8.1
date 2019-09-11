@@ -1,0 +1,47 @@
+
+body {
+    margin: 0px;
+}
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.list-menu {
+    text-decoration: none;
+    background-color: aquamarine;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.list-menu-text {
+    text-decoration: none;
+}
+.list-sub {
+    padding: 0px;
+    display: none;
+    position: absolute;
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
+.submenu {
+    width: 180px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    display: block;
+}
+.menu4:hover .list-sub {
+    display: block;
+}
+.text4:hover {
+    background-color: blue;
+    color: white;
+    padding: 0px 15px;
+}
