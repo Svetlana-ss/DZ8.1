@@ -28,8 +28,8 @@ body {
     padding: 0px;
     display: none;
     position: absolute;
+    top: 59px;
     border-top: 1px solid black;
-    margin-top: 15px;
 }
 .submenu {
     width: 180px;
@@ -43,5 +43,4 @@ body {
 .text4:hover {
     background-color: blue;
     color: white;
-    padding: 0px 15px;
 }
